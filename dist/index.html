@@ -1,0 +1,445 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<!--  npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch -->
+<body>
+      <header class="bg-slate-950 flex justify-around items-center ">
+        <div class="left">
+          <img class="h-16 w-auto" src="images/Ibn Hazm logo.png" alt="">
+        </div>
+        <div class="text-base flex justify-center items-center">
+          <a href="#" class="text-white font-medium hover:text-yellow-500 hover:bg-white px-4 py-2">Home</a>
+          <a href="#" class="text-white font-medium hover:text-yellow-500 hover:bg-white px-4 py-2">Blog</a>
+          <a href="#" class="text-white font-medium hover:text-yellow-500 hover:bg-white px-4 py-2">About Us</a>
+          <a href="#" class="text-white font-medium hover:text-yellow-500 hover:bg-white px-4 py-2">Contact Us</a>
+          <a href="#" class="bg-white px-4 py-2 font-medium hover:text-yellow-500">Subscribe</a>
+        </div>
+      </header>
+
+      <section class="w-full h-[535] p-24 bg-slate-800">
+        <div class="w-3/5  text-white">
+          <div class="text-base font-Inter leading-5">
+            POSTED ON <span class="font-black">STARTUP</span>
+          </div>
+  
+          <div class="font-sans text-[56px] w-[863] leading-[64px] font-normal">
+            Step-by-step guide to choosing great font pairs
+          </div>
+  
+          <div class="leading-10 text-base font-normal">
+            By <span class="text-yellow-500">James West</span> | May 23, 2022
+          </div>
+  
+          <div class="w-[599] leading-7 text-base font-normal">
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+          </div>
+          <div class="mt-10">
+            <a href="#" class="pl-6 pr-6 pt-3 pb-3 bg-yellow-400 text-blue-950 font-bold hover:text-yellow-50">Read More ></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured-posts w-[1200px] h-auto m-auto flex justify-between mt-10 mb-20">
+        <div class="featured-post w-[600px] h-auto bg-slate-50">
+
+          <h1 class="font-[Sen] text-4xl font-bold leading-10">Featured Post</h1>
+          <div class="post-wrapper p-8">
+            <div>
+              <img src="images/white-concrete-building-1838640.jpg" alt="">
+            </div>
+
+            <div class="text-base font-medium font-['Inter'] leading-5 mt-4">
+              By John Doe   l   May 23, 2022
+            </div>
+
+            <div class="featured-info w-[500px]">
+              <p class="font-['Sen'] text-[28px] font-bold leading-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+              <p class="fonr-['Inter']  text-base font-normal leading-7">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+            </div>
+
+            <div class="mt-8">
+              <a href="#" class="pl-6 pr-6 pt-3 pb-3 bg-yellow-400 text-blue-950 font-bold hover:text-yellow-50">Read More ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="all-post w-[500px] h-auto">
+          <div class="top flex justify-between items-center">
+            <div class="font-['Sen'] text-4xl font-bold leading-[48px]">
+              All Posts
+            </div>
+
+            <div class="font-['Inter'] text-base font-normal leading-7 text-purple-950"> 
+              View All
+            </div>
+          </div>
+          
+          <div class="item p-8 hover:bg-yellow-100">
+            <div class="font-['Inter'] text-sm font-medium leading-8">
+              By <span class="text-purple-900">John Deo</span>   l   Aug 23, 2021 
+            </div>
+            <div class="font-['Sen'] text-2xl font-bold leading-8">
+              8 Figma design systems that you can download for free today.
+            </div>
+          </div>
+
+          <div class="item p-8 hover:bg-yellow-100">
+            <div class="font-['Inter'] text-sm font-medium leading-8">
+              By <span class="text-purple-900">John Deo</span>   l   Aug 23, 2021 
+            </div>
+            <div class="font-['Sen'] text-2xl font-bold leading-8">
+              8 Figma design systems that you can download for free today.
+            </div>
+          </div>
+
+          <div class="item p-8 hover:bg-yellow-100">
+            <div class="font-['Inter'] text-sm font-medium leading-8">
+              By <span class="text-purple-900">John Deo</span>   l   Aug 23, 2021 
+            </div>
+            <div class="font-['Sen'] text-2xl font-bold leading-8">
+              8 Figma design systems that you can download for free today.
+            </div>
+          </div>
+
+          <div class="item p-8 hover:bg-yellow-100">
+            <div class="font-['Inter'] text-sm font-medium leading-8">
+              By <span class="text-purple-900">John Deo</span>   l   Aug 23, 2021 
+            </div>
+            <div class="font-['Sen'] text-2xl font-bold leading-8">
+              8 Figma design systems that you can download for free today.
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="about-mission w-[1200px] h-auto m-auto mt-7 mb-12">
+        <div class="pattern w-[1200px] flex justify-end">
+          <div class="shape1 w-[680px] h-[23px] bg-yellow-500">
+
+          </div>
+          <div class="shape2 w-[300px] h-[23px] bg-purple-800">
+
+          </div>
+        </div>
+
+        <div class="btm flex justify-between p-10 bg-slate-50">
+          <div class="about-us w-[900px] p-10">
+            <div class="font-['Inter'] text-base font-semibold leading-5 mb-3">
+              ABOUT US
+            </div>
+
+            <div class="font-['Sen'] text-4xl font-bold leading-[48px]">
+              We are a community of content writers who share their learnings
+            </div>
+
+            <div class="font-['Inter'] text-base font-normal leading-7">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </div>
+
+            <div>
+              <a href="#" class="font-['Sen'] text-lg font-bold leading-8 text-purple-950">Read More ></a>
+            </div>
+          </div>
+
+          <div class="our-mission w-[800px] p-10">
+            <div class="font-['Inter'] text-base font-semibold leading-5 mb-3">OUR MISSION</div>
+
+            <div class="font-['Sen'] text-[28px] font-bold leading-10">
+              Creating valuable content for creatives all around the world
+            </div>
+
+            <div class="font-['Inter'] text-base font-normal leading-7">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="category w-[1200px] h-[228px] m-auto mb-20">
+        <h1 class="font-['Sen'] text-4xl font-bold leading-[48px] text-center mb-6">Choose A Category</h1>
+
+        <div class="categories flex justify-center items-center">
+
+          <div class="item w-[296px] h-[228px]">
+            <div class="icon bg-slate-50 w-12 h-12 flex justify-center items-center">
+              <img src="images/Icon.svg" alt="">
+            </div>
+
+            <div class="font-['Sen'] text-[28px] font-bold leading-10">
+              Business
+            </div>
+
+            <div class="font-['Inter'] text-base font-normal leading-7">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            </div>
+          </div>
+
+          <div class="item w-[296px] h-[228px]">
+            <div class="icon bg-slate-50 w-12 h-12 flex justify-center items-center">
+              <img src="images/shuttle.svg" alt="">
+            </div>
+
+            <div class="font-['Sen'] text-[28px] font-bold leading-10">
+              Startup
+            </div>
+
+            <div class="font-['Inter'] text-base font-normal leading-7">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            </div>
+          </div>
+
+          <div class="item w-[296px] h-[228px]">
+            <div class="icon bg-slate-50 w-12 h-12 flex justify-center items-center">
+              <img src="images/economy.svg" alt="">
+            </div>
+
+            <div class="font-['Sen'] text-[28px] font-bold leading-10">
+              Economy
+            </div>
+
+            <div class="font-['Inter'] text-base font-normal leading-7">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            </div>
+          </div>
+
+          <div class="item w-[296px] h-[228px]">
+            <div class="icon bg-slate-50 w-12 h-12 flex justify-center items-center">
+              <img src="images/cyborg.svg" alt="">
+            </div>
+
+            <div class="font-['Sen'] text-[28px] font-bold leading-10">
+              Technology
+            </div>
+
+            <div class="font-['Inter'] text-base font-normal leading-7">
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="special-posts w-[1200px] h-[600px] m-auto mb-9 relative">
+        <img src="images/close-up-photography-of-man-wearing-sunglasses-1212984.jpg" class="w-[850px] h-[600px]" alt="">
+        <div class="content w-[690px] h-auto p-16 bg-white absolute right-0 bottom-0">
+          <div class="font-['Inter'] text-base font-semibold leading-5">
+            WHY WE STARTED
+          </div>
+
+          <div class="font['Sen'] text-5xl font-bold leading-[64px]">
+            It started out as a simple idea and evolved into our passion
+          </div>
+
+          <div class="font-['Inter'] text-base text-[#6d6e76] font-normal leading-7">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.
+          </div>
+
+          <div class="mt-8">
+            <a href="#" class="pl-6 pr-6 pt-3 pb-3 bg-yellow-400 text-blue-950 font-bold hover:text-yellow-50">Discover our story ></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="List-of-Authors w-[1200px] h-[280px] m-auto mb-36">
+        <h1 class="font-['Sen'] text-4xl font-bold leading-[48px] text-center mb-6">List of Authors</h1>
+
+        <div class="authors flex justify-between">
+          <div class="item w-[296px] h-[280px] bg-[#F4F4F4] hover:bg-yellow-100 flex flex-col items-center justify-center">
+            <div class="w-32 h-32">
+              <img class="rounded-full" src="images/man-in-yellow-button-up-shirt-wearing-black-framed-eyeglasses-7562313.jpg" alt="">
+            </div>
+  
+            <div class="font-['Sen'] text-[28px] font-bold leading-10">
+              Floyd Miles
+            </div>
+  
+            <div class="font-['Inter'] text-sm font-normal leading-5">
+              consectetuer adipiscing elit.
+            </div>
+            <div class="social-media-handles mt-3 flex justify-center items-center gap-4">
+              <img src="images/Facebook.svg" class="w-4 h-4" alt="">
+              <img src="images/Twitter.svg" class="w-4 h-4" alt="">
+              <img src="images/Instagram.svg" class="w-4 h-4" alt="">
+              <img src="images/LinkedIn.svg" class="w-4 h-4" alt="">
+            </div>
+          </div>
+  
+          <div class="item w-[296px] h-[280px] bg-[#F4F4F4] hover:bg-yellow-100 flex flex-col items-center justify-center">
+            <div class="w-32 h-32">
+              <img class="rounded-full" src="images/woman-in-white-and-black-striped-shirt-wearing-black-sunglasses-3671083.jpg" alt="">
+            </div>
+  
+            <div class="font-['Sen'] text-[28px] font-bold leading-10">
+              Dianne Russell
+            </div>
+  
+            <div class="font-['Inter'] text-sm font-normal leading-5">
+              consectetuer adipiscing elit.
+            </div>
+            <div class="social-media-handles mt-3 flex justify-center items-center gap-4">
+              <img src="images/Facebook.svg" class="w-4 h-4" alt="">
+              <img src="images/Twitter.svg" class="w-4 h-4" alt="">
+              <img src="images/Instagram.svg" class="w-4 h-4" alt="">
+              <img src="images/LinkedIn.svg" class="w-4 h-4" alt="">
+            </div>
+          </div>
+  
+          <div class="item w-[296px] h-[280px] bg-[#F4F4F4] hover:bg-yellow-100 flex flex-col items-center justify-center">
+            <div class="w-32 h-32">
+              <img class="rounded-full" src="images/fashion-woman-cute-shoes-5704849.jpg" alt="">
+            </div>
+  
+            <div class="font-['Sen'] text-[28px] font-bold leading-10">
+              Jenny Wilson
+            </div>
+  
+            <div class="font-['Inter'] text-sm font-normal leading-5">
+              consectetuer adipiscing elit.
+            </div>
+            <div class="social-media-handles mt-3 flex justify-center items-center gap-4">
+              <img src="images/Facebook.svg" class="w-4 h-4" alt="">
+              <img src="images/Twitter.svg" class="w-4 h-4" alt="">
+              <img src="images/Instagram.svg" class="w-4 h-4" alt="">
+              <img src="images/LinkedIn.svg" class="w-4 h-4" alt="">
+            </div>
+          </div>
+  
+          <div class="item w-[296px] h-[280px] bg-[#F4F4F4] hover:bg-yellow-100 flex flex-col items-center justify-center">
+            <div class="w-32 h-32">
+              <img class="rounded-full" src="images/content-baker-with-delicious-puff-in-cafeteria-6205509.jpg" alt="">
+            </div>
+  
+            <div class="font-['Sen'] text-[28px] font-bold leading-10">
+              Leslie Alexander
+            </div>
+  
+            <div class="font-['Inter'] text-sm font-normal leading-5">
+              consectetuer adipiscing elit.
+            </div>
+            <div class="social-media-handles mt-3 flex justify-center items-center gap-4">
+              <img src="images/Facebook.svg" class="w-4 h-4" alt="">
+              <img src="images/Twitter.svg" class="w-4 h-4" alt="">
+              <img src="images/Instagram.svg" class="w-4 h-4" alt="">
+              <img src="images/LinkedIn.svg" class="w-4 h-4" alt="">
+            </div>
+          </div>
+        </div>
+        
+      </section>
+
+      <section class="logo-component w-[1100px] h-auto m-auto mb-7 flex justify-between items-center">
+        <div class="featured-in">
+          <div class="font-['Inter'] text-base text-gray-500 font-normal leading-6">
+            We are
+          </div>
+          <div class="font-['Sen'] text-xl text-slate-300 font-bold leading-5">
+            Featured in
+          </div>
+        </div>
+
+        <div class="logo-wrapper w-[980px] h-auto flex justify-end items-center gap-20">
+          <img src="images/Logo 1.svg" class="w-[150px] h-[32px]" alt="">
+          <img src="images/Logo 2.svg" class="w-[150px] h-[32px]" alt="">
+          <img src="images/Logo 3.svg" class="w-[150px] h-[32px]" alt="">
+          <img src="images/Logo 4.svg" class="w-[150px] h-[32px]" alt="">
+        </div>
+      </section>
+
+      <section class="Testimonial w-[1200px] h-[464px] bg-yellow-100 m-auto mb-10 flex justify-center items-center gap-7">
+        <div class="heading w-[349px] h-[200px">
+          <div class="font-['Inter'] text-base font-semibold leading-5">
+            TESTIMONIALS
+          </div>
+          <div class="font-['Sen'] text-4xl font-bold leading-[48px]">
+            What people say about our blog
+          </div>
+          <div class="font-['Inter'] text-base font-normal leading-7">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+          </div>
+        </div>
+
+        <div class="line w-1 h-[310px] bg-black"></div>
+
+        <div class="Messages w-[469px] h-[300px] flex flex-col justify-center gap-6">
+          <div class="font-['Sen'] text-2xl font-bold leading-8">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+
+          <div class="Profile">
+            <div class="flex justify-between">
+              <div class="image-profile flex justify-center items-center gap-4">
+                <img src="images/Profile picture.svg" class="w-12 h-12 rounded-full" alt="">
+                <div>
+                <div class="font-['Sen'] text-2xl font-bold leading-8">Jonathan Vallem</div>
+                <div class="font-['Inter'] text-base font-normal leading-7">New york, USA</div>
+                </div>
+              </div>
+
+              <div class="arrow flex justify-end items-center gap-5">
+                <img src="images/Back button.svg" alt="">
+                <img src="images/Next Button.svg" class="w-[62px] h-[62px]" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="team w-[414px] h-[256px] m-auto mb-8 flex flex-col justify-center items-center">
+        <div class="texts">
+          <p class="font-['Sen'] text-4xl text-center font-bold leading-[48px]">Join our team to be a part of our story</p>
+          <p class="font-['Inter'] text-base text-center font-normal leading-7 text-[#6d6e76]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+        <div class="mt-5">
+          <a href="#" class="p-3 bg-yellow-400 font-['Sen'] text-lg font-bold">Join Now</a>
+        </div>
+      </section>
+
+      <footer class="w-[100%] h-[550px] bg-[#232536] flex flex-col justify-center items-center gap-6">
+        <div class="content w-[90%] h-[350px] bg-slate-300">
+          <div class="bg-slate-950 flex justify-around items-center ">
+            <div class="left">
+              <img class="h-16 w-auto" src="images/Ibn Hazm logo.png" alt="">
+            </div>
+            <div class="text-base flex justify-center items-center">
+              <a href="#" class="text-white font-medium hover:text-yellow-500 hover:bg-white px-4 py-2">Home</a>
+              <a href="#" class="text-white font-medium hover:text-yellow-500 hover:bg-white px-4 py-2">Blog</a>
+              <a href="#" class="text-white font-medium hover:text-yellow-500 hover:bg-white px-4 py-2">About Us</a>
+              <a href="#" class="text-white font-medium hover:text-yellow-500 hover:bg-white px-4 py-2">Contact Us</a>
+            </div>
+          </div>
+
+          <div class="CTA w-auto h-[286px] bg-black flex items-center justify-center gap-8">
+            <div class="w-[562px] font-['Sen'] text-4xl text-white font-bold leading-[48px]">
+              Subscribe to our news letter to get latest updates and news
+            </div>
+
+            <div class="input">
+              <form action="">
+                <input class="p-[14px] bg-slate-900 text-gray-500" type="email" name="email" value="Enter Your Email" id="Em">
+                <button class="p-[14px] bg-yellow-400 text-blue-950 font-['Sen'] font-bold">Subscribe</button>
+              </form>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="contact flex justify-between items-center w-[1200px] ">
+          <div class="w-361px">
+            <p class="font-['Inter'] text-base text-slate-300 font-normal leading-7">Finstreet 118 2561 Fintown</p>
+            <p class="font-['Inter'] text-base text-slate-300 font-normal leading-7">+233553051673</p>
+          </div>
+
+          <div class="social-media-handles mt-3 flex justify-center items-center gap-4">
+            <img src="images/Negative.svg" class="w-4 h-4" alt="">
+            <img src="images/Negative2.svg" class="w-4 h-4" alt="">
+            <img src="images/Negative3.svg" class="w-4 h-4" alt="">
+            <img src="images/Negative4.svg" class="w-4 h-4" alt="">
+          </div>
+        </div>
+      </footer>
+</body>
+</html>
